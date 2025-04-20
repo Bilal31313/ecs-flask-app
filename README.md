@@ -1,5 +1,12 @@
 # ECS Flask App Deployment with Custom VPC & CI/CD 🚀
 
+# ECS Flask App Deployment with Custom VPC & CI/CD 🚀
+
+![CI/CD Status](https://github.com/Bilal31313/ecs-flask-app/actions/workflows/deploy.yml/badge.svg)
+
+---
+
+
 This project demonstrates the full end-to-end deployment of a **Flask web application** on AWS using **custom-built infrastructure** — including a **self-created VPC**, **ECS Fargate**, **Elastic Container Registry (ECR)**, **Application Load Balancer (ALB)** — and **automated deployments** with **GitHub Actions (CI/CD)**.
 
 ---
@@ -29,6 +36,8 @@ The project demonstrates:
 - Deploying it to ECS Fargate
 - Using an Application Load Balancer for public traffic
 - Automating deployments with GitHub Actions CI/CD
+![image](https://github.com/user-attachments/assets/af34f759-8829-439a-bd59-357bebb516b1)
+![image](https://github.com/user-attachments/assets/25441876-ab03-4748-820b-57d6d62b218d)
 
 
 ## 🛠 Infrastructure Overview
