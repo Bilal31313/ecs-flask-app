@@ -29,6 +29,7 @@ This project demonstrates the full end-to-end deployment of a **Flask web applic
 > `http://ecs-flask-alb-402038394.eu-west-2.elb.amazonaws.com/`
 >
 > The deployment has been intentionally terminated to avoid unnecessary billing costs.
+> As a result, the GitHub Actions deployment workflow may show failed runs post-project completion. This is expected and reflects responsible cloud cost and security management.
 
 
 The project demonstrates:
