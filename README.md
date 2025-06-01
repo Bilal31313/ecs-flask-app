@@ -5,6 +5,20 @@
 
 ---
 
+🧠 Project Context
+
+This repository focuses on the application deployment and CI/CD layer of a containerized Flask app hosted on ECS Fargate.
+
+**Note:** The backend infrastructure (VPC, ECS Cluster, ALB, ECR) was created separately using Terraform in a now-decommissioned repo and AWS environment. This repo remains public as a demonstration of:
+- CI/CD integration with GitHub Actions
+- Docker-based image build and push to ECR
+- Live updates to ECS Fargate service triggered by Git events
+
+Due to cost and cleanup, the associated infrastructure has been torn down. The deployment pipeline may show failed runs — this is expected behavior and reflects responsible cloud resource management.
+
+✅ For a full-stack ECS + Terraform + CI/CD implementation, see my [`cloud-cost-dashboard`](https://github.com/Bilal31313/cloud-cost-dashboard) project.
+
+
 
 This project demonstrates the full end-to-end deployment of a **Flask web application** on AWS using **custom-built infrastructure** — including a **self-created VPC**, **ECS Fargate**, **Elastic Container Registry (ECR)**, **Application Load Balancer (ALB)** — and **automated deployments** with **GitHub Actions (CI/CD)**.
 
